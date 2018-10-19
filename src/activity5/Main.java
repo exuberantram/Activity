@@ -22,6 +22,10 @@ public class Main {
     InteriorFeature myInFeature = new InteriorFeature();
     InteriorFeature yourInFeature = new InteriorFeature("Climate Control");
 
+    //ExteriorFeature test objects
+    ExteriorFeature myExFeature = new ExteriorFeature();
+    ExteriorFeature yourExFeature = new ExteriorFeature("Fog Lamps");
+
     /*VehicleChassis print statements
     System.out.println(myChassis.toString());
     System.out.println(yourChassis.toString());*/
@@ -35,10 +39,12 @@ public class Main {
     System.out.println();
     System.out.println(yourEngine.toString());*/
 
-    //InteriorFeature print statements
+    /*InteriorFeature print statements
     System.out.println(myInFeature);
-    System.out.println(yourInFeature);
+    System.out.println(yourInFeature);*/
 
-
+    //ExteriorFeature print statements
+    System.out.println(myExFeature);
+    System.out.println(yourExFeature);
   }
 }
