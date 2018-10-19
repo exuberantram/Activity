@@ -2,6 +2,8 @@ package activity5;
 
 public class VehicleFrame implements Chassis {
 
+  private String vehicleFrameType;
+
   public VehicleFrame() {
     this.vehicleFrameType = "Unibody";
   }
@@ -10,10 +12,8 @@ public class VehicleFrame implements Chassis {
     this.vehicleFrameType = vehicleFrameType;
   }
 
-  private String vehicleFrameType;
-
   public Chassis getChassisType() {
-    return null;
+    return this;
   }
 
   public void setChassisType(String vehicleFrameType) {
